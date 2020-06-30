@@ -1,0 +1,11 @@
+extends layout
+
+
+block content
+    h1= book.title
+    h5 Written by #{book.author}
+    p= book.body
+    br
+    .artpage
+        a.btn.btn-dark(href='/books/edit/'+book._id) Edit
+        a.btn.btn-danger.delete-book(href='/books', data-id=book._id) Delete

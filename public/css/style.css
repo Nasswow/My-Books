@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(219, 217, 217);
+}
+.mycontainer {
+  width: 50%;
+  text-align: center;
+}
+ul {
+  margin-left: auto;
+}
+/* ul li {
+  margin-right: 40px;
+} */
+.button {
+  margin-top: 40vh;
+  display: flex;
+  justify-content: space-between;
+}
+.h1home {
+  margin-top: 5px;
+  text-align: center;
+  background-color: rgb(240, 229, 186);
+  padding: 20px 0 20px;
+}
+.mynav {
+  margin-top: 5px;
+}
+.artpage {
+  margin-top: 30vh;
+  display: flex;
+  justify-content: space-between;
+}
+.form-signin {
+  width: 400px;
+  text-align: center;
+  margin: 100px auto;
+}
